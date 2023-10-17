@@ -36,8 +36,8 @@ function Card() {
         <hr className="ligne-separation"/>
         </div>
         <div className="Button">
-        <button>Comander</button>
-        <button>Reserver</button>
+        <button>Commander</button>
+        <button>Réserver</button>
         </div>
 
       </div>
