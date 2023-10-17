@@ -1,3 +1,5 @@
+bonjour j'ai creer le component avec Scss car j'ai trouver plus simple, réutilisable avec des bonnes performances.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
