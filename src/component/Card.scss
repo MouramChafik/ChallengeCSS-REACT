@@ -1,0 +1,79 @@
+$font-stack : Georgia, serif;
+$first-color : gray;
+$seconde-color : #efefef;
+$third-color : black;
+
+
+
+.MyCard{
+    background-color: $seconde-color;
+    width: 40vh;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 3px 3px $first-color, ;
+    
+    h1{
+        color: $third-color;
+        margin: 0;
+        font-size: 3vh;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-family: $font-stack;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        color: $third-color;
+        margin: 0;
+        font-size: 2vh;
+        margin-left: 22px;
+        margin-bottom: 5px;
+        font-family: serif;
+    }
+    .Paragraf{
+        font-family:cursive;
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: medium;
+
+    }
+    img{
+        width: 100%;
+        height: 25vh;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        margin-top: 2px;
+    }
+    .ligne-separation {
+        width: 90%; 
+        border: 1px solid #000; 
+        margin: 20px auto; 
+        margin-bottom: 30px;
+      }
+    .Rating{
+        display: inline-flex;
+        align-items: center;
+        margin-left: 20px;
+        width: 176px;
+        border-radius: 5px;
+        height: 20px;
+
+    }
+    .RatingImg{
+        width: 20px;
+        height: 20px;
+        margin: 2px;
+    }
+    .Button{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    Button{
+        background-color: #00AD5E;
+        box-shadow: 1px 2px $first-color, ;
+
+    }
+}
+
